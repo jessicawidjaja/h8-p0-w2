@@ -3,8 +3,8 @@ function xo(str) {
   var iX = 0
 
   for (var i=0; i<=str.length; i++){
-    	if (str[i]=='x') { ix ++} 
-	else if (str[i]=='o') {io ++} }
+    	if (str[i]=='x') { iX ++} 
+	else if (str[i]=='o') {iO ++} }
   
   	if (iX==iO) {return true} 
 	else {return false} }
