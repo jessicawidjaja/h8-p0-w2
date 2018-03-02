@@ -6,7 +6,7 @@ function xo(str) {
     	if (str[i]=='x') { ix ++} 
 	else if (str[i]=='o') {io ++} }
   
-  	if (ix==io) {return true} 
+  	if (iX==iO) {return true} 
 	else {return false} }
 
 
