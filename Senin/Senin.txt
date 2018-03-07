@@ -15,9 +15,9 @@
         SET "Value2" with 100;
         SET "Value3" with 400
 
-        IF "Year" / "Value1" = 0 AND "Year" / "Value2" ? 0 THEN
+        IF "Year" % "Value1" = 0 AND "Year" % "Value2" >= 1 THEN
                 DISPLAY "Tahun Kabisat"
-        ELSE IF "Year" / "Value1" = 0, "Year" / "Value2" = 0 AND "Year" / "Value3" = 0 THEN
+        ELSE IF "Year" % "Value1" = 0, "Year" % "Value2" = 0 AND "Year" % "Value3" = 0 THEN
                 DISPLAY "Tahun Kabisat"
         ELSE
                 DISPLAY "Bukan Tahun Kabisat"
